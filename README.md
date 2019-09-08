@@ -6,8 +6,9 @@ Here's a very technical definition from [Wikipedia](https://en.wikipedia.org/wik
 
 ## Reading
 
-- [State Machines in React](https://gedd.ski/post/state-machines-in-react/)
 - [From the Choo docs](https://choo.io/docs/state-machines/)
+- [Model-Based Testing in React with State Machines](https://css-tricks.com/model-based-testing-in-react-with-state-machines/)
+- [State Machines in React](https://gedd.ski/post/state-machines-in-react/)
 
 
 ## Projects
