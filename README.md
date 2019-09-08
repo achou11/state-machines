@@ -14,4 +14,8 @@ Here's a very technical definition from [Wikipedia](https://en.wikipedia.org/wik
 ## Projects
 
 - [XState](https://github.com/davidkpiano/xstate)
+- [Kingly](https://brucou.github.io/documentation)
+- [Sismic](https://sismic.readthedocs.io)
+- [Elixir gen_statem](https://andrealeopardi.com/posts/connection-managers-with-gen_statem)
+- [[Boost].SML](https://boost-experimental.github.io/sml)
 - Pretty sure there's a finite state machine implementation in every known programming language...
