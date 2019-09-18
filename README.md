@@ -24,13 +24,12 @@ According to the extensions they incorporate, the following types of state machi
 | hierarchy + memory| extended hierarchical finite state machine (EHFSM or EHSM) | inputs, tree of states, transitions, set of variables, guards, memory update functions  |
 | hierarchy + memory + outputs| extended hierarchical finite state transducer (EHFST or EHST)| inputs, tree of states, transitions, set of variables, guards, memory update functions, output functions |
 | concurrency| communicating finite state machines ([CFSM](https://en.wikipedia.org/wiki/Communicating_finite-state_machine)) | set of state machines, communication protocol, concurrency semantics |
+| concurrency (broadcast communication) + hierarchy | [statecharts](http://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf)  | set of hierarchical state machines, history pseudo states, broadcast communication protocol, concurrency semantics tightly integrated to the FSM semantics|
 | concurrency + hierarchy | communicating hierarchical finite state machines ([CHFSM or HCFSM](https://en.wikipedia.org/wiki/Communicating_finite-state_machine#Communicating_Hierarchical_State_Machine)) | set of hierarchical state machines, communication protocol, concurrency semantics |
-| concurrency + hierarchy + broadcast | [statecharts](http://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf)  | set of hierarchical state machines, history pseudo states, broadcast communication protocol, concurrency semantics tightly integrated to the FSM semantics|
 
 
 ## What is it used for?
-> Finite state machines constitute one of the most fundamental modeling mechanisms in Computer Science. They have been widely used to model systems in a
-  wide variety of areas, including sequential circuits, event-driven software, communication protocols and many others.
+> Finite state machines constitute one of the most fundamental modeling mechanisms in Computer Science. They have been widely used to model systems in a wide variety of areas, including sequential circuits, event-driven software, communication protocols and many others.
 
 *Source: [Hierarchical State Machines](https://link.springer.com/content/pdf/10.1007/3-540-44929-9_24.pdf), Mihalis Yannakakis, Bell Laboratories, 2000*
 
@@ -44,6 +43,7 @@ Extensions to the basic state machine formalism can be chosen based on the chara
 
 - General
   - [From the Choo docs](https://choo.io/docs/state-machines/)
+  = [The Rise Of The State Machines](https://www.smashingmagazine.com/2018/01/rise-state-machines/)
   - [State Machines: What Are They?](https://kyleshevlin.com/what-are-state-machines)
   - [How I Learned to Stop Worrying and ❤️ the State Machine](http://raganwald.com/2018/02/23/forde.html)
 
@@ -67,6 +67,10 @@ Extensions to the basic state machine formalism can be chosen based on the chara
 - JavasScript
   - [XState](https://github.com/davidkpiano/xstate)
   - [Kingly](https://brucou.github.io/documentation)
+  - [Stent](https://github.com/krasimir/stent)
+  - [jssm](https://github.com/StoneCypher/jssm)
+  - [Rosmaro](https://rosmaro.js.org/)
+  - [Javascript State Machine](https://github.com/jakesgordon/javascript-state-machine)
 
 - Python
   - [Sismic](https://sismic.readthedocs.io)
@@ -81,6 +85,7 @@ Extensions to the basic state machine formalism can be chosen based on the chara
 ## Examples
 
 - User interface modeling
+  - [Getting from Redux to a state machine](https://krasimirtsonev.com/blog/article/getting-from-redux-to-state-machine-with-stent)
   - [Password meter](https://brucou.github.io/documentation/v1/tutorials/password-meter-ui-implementation.html#Vanilla-js)
   - [Keypad](https://brucou.github.io/documentation/v1/examples/keypad.html)
   - [two-player chess game](https://brucou.github.io/documentation/v1/tutorials/chess-game-ultimate.html)
