@@ -66,7 +66,7 @@ Extensions to the basic state machine formalism can be chosen based on the chara
 
 ## Projects
 
-- JavasScript
+- JavaScript
   - [XState](https://github.com/davidkpiano/xstate)
   - [Kingly](https://brucou.github.io/documentation)
   - [Stent](https://github.com/krasimir/stent)
