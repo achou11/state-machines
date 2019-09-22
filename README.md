@@ -10,25 +10,24 @@ to describe more complex systems more efficiently
 
 *Source: [Hierarchical State Machines](https://link.springer.com/content/pdf/10.1007/3-540-44929-9_24.pdf), Mihalis Yannakakis, Bell Laboratories, 2000*
 
-A basic finite state machine features states, transitions and accept external inputs. The basic FSM involve can be extended with adding outputs, memory, hierarchy, concurrency and communication. A machine with outputs will produce an output for each external input it receives. A machine with memory will hold track of a set of internal variables, which it can update on receiving external inputs. A machine with hierarchy contains sub-machines and can delegate the processing of external inputs to those sub-machines. A machine featuring concurrency and communication may contain a set of machines, which concurrently process external inputs and communicate together. 
+A basic finite state machine features states, transitions and accept external inputs. Basic FSMs can be extended by adding outputs, memory, hierarchy, concurrency and communication. A machine with outputs will produce an output for each external input it receives. A machine with memory will hold track of a set of internal variables, which it can update on receiving external inputs. A machine with hierarchy contains sub-machines and can delegate the processing of external inputs to those sub-machines. A machine featuring concurrency and communication may contain a set of machines, which concurrently process external inputs and communicate together. Extensions add expressivity to the machine at the cost of higher complexity.
 
 According to the extensions they incorporate, the following terminology is commonly used:
  
-| Extension | Terminology | Characteristics |
+| Extension | Terminology | Features |
 |:---|:---|:---|
-| - | basic finite state machine ([FSM](https://en.wikipedia.org/wiki/Finite-state_machine)) | inputs, states, transitions |
-| output| basic finite state transducer ([FST](https://en.wikipedia.org/wiki/Finite-state_transducer)) | inputs, states, transitions, output functions |
-| output depending only on state| [Moore machine](https://en.wikipedia.org/wiki/Moore_machine) | inputs, states, transitions, output functions |
-| output depending on state and input | [Mealy machine](https://en.wikipedia.org/wiki/Mealy_machine) | inputs, states, transitions, output functions |
-| memory | extended finite state machine ([EFSM](https://en.wikipedia.org/wiki/Extended_finite-state_machine)) | inputs, states, transitions, set of variables, guards, memory update functions |
-| memory + output| extended finite state transducer (EFST) | inputs, states, transitions, set of variables, guards, memory update functions, output functions  |
-| hierarchy | hierarchical finite state machine (HFSM or HSM) | inputs, tree of states, transitions |
-| hierarchy + memory| extended hierarchical finite state machine (EHFSM or EHSM) | inputs, tree of states, transitions, set of variables, guards, memory update functions  |
-| hierarchy + memory + outputs| extended hierarchical finite state transducer (EHFST or EHST)| inputs, tree of states, transitions, set of variables, guards, memory update functions, output functions |
+| - | basic finite state machine ([FSM](https://en.wikipedia.org/wiki/Finite-state_machine)) | states, transitions |
+| output| basic finite state transducer ([FST](https://en.wikipedia.org/wiki/Finite-state_transducer)) | states, transitions, output functions |
+| output depending only on state| [Moore machine](https://en.wikipedia.org/wiki/Moore_machine) | states, transitions, output functions |
+| output depending on state and input | [Mealy machine](https://en.wikipedia.org/wiki/Mealy_machine) | states, transitions, output functions |
+| memory | extended finite state machine ([EFSM](https://en.wikipedia.org/wiki/Extended_finite-state_machine)) | states, transitions, set of variables, guards, memory update functions |
+| memory + output| extended finite state transducer (EFST) | states, transitions, set of variables, guards, memory update functions, output functions  |
+| hierarchy | hierarchical finite state machine (HFSM or HSM) | tree of states, transitions |
+| hierarchy + memory| extended hierarchical finite state machine (EHFSM or EHSM) | tree of states, transitions, set of variables, guards, memory update functions  |
+| hierarchy + memory + outputs| extended hierarchical finite state transducer (EHFST or EHST)| tree of states, transitions, set of variables, guards, memory update functions, output functions |
 | concurrency| communicating finite state machines ([CFSM](https://en.wikipedia.org/wiki/Communicating_finite-state_machine)) | set of state machines, communication protocol, concurrency semantics |
 | concurrency (broadcast communication) + hierarchy | [statecharts](http://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf)  | set of hierarchical state machines, history pseudo states, broadcast communication protocol, concurrency semantics tightly integrated to the FSM semantics|
 | concurrency + hierarchy | communicating hierarchical finite state machines ([CHFSM or HCFSM](https://en.wikipedia.org/wiki/Communicating_finite-state_machine#Communicating_Hierarchical_State_Machine)) | set of hierarchical state machines, communication protocol, concurrency semantics |
-
 
 
 ## What is it used for?
