@@ -30,6 +30,7 @@ According to the extensions they incorporate, the following terminology is commo
 | concurrency + hierarchy | communicating hierarchical finite state machines ([CHFSM or HCFSM](https://en.wikipedia.org/wiki/Communicating_finite-state_machine#Communicating_Hierarchical_State_Machine)) | set of hierarchical state machines, communication protocol, concurrency semantics |
 
 
+
 ## What is it used for?
 > Finite state machines constitute one of the most fundamental modeling mechanisms in Computer Science. They have been widely used to model systems in a wide variety of areas, including sequential circuits, event-driven software, communication protocols and many others.
 
