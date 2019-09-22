@@ -9,12 +9,14 @@
 to describe more complex systems more efficiently
 
 *Source: [Hierarchical State Machines](https://link.springer.com/content/pdf/10.1007/3-540-44929-9_24.pdf), Mihalis Yannakakis, Bell Laboratories, 2000*
-  
-According to the extensions they incorporate, the following types of state machines are commonly distinguished:
+
+A basic finite state machine features states, transitions and accept external inputs. The basic FSM involve can be extended with adding outputs, memory, hierarchy, concurrency and communication. A machine with outputs will produce an output for each external input it receives. A machine with memory will hold track of a set of internal variables, which it can update on receiving external inputs. A machine with hierarchy contains sub-machines and can delegate the processing of external inputs to those sub-machines. A machine featuring concurrency and communication may contain a set of machines, which concurrently process external inputs and communicate together. 
+
+According to the extensions they incorporate, the following terminology is commonly used:
  
 | Extension | Terminology | Characteristics |
 |:---|:---|:---|
-| - | basic finite state machine ([FSM]((https://en.wikipedia.org/wiki/Finite-state_machine)) | inputs, states, transitions |
+| - | basic finite state machine ([FSM](https://en.wikipedia.org/wiki/Finite-state_machine)) | inputs, states, transitions |
 | output| basic finite state transducer ([FST](https://en.wikipedia.org/wiki/Finite-state_transducer)) | inputs, states, transitions, output functions |
 | output depending only on state| [Moore machine](https://en.wikipedia.org/wiki/Moore_machine) | inputs, states, transitions, output functions |
 | output depending on state and input | [Mealy machine](https://en.wikipedia.org/wiki/Mealy_machine) | inputs, states, transitions, output functions |
