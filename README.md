@@ -73,6 +73,7 @@ Extensions to the basic state machine formalism can be chosen based on the chara
   - [jssm](https://github.com/StoneCypher/jssm)
   - [Rosmaro](https://rosmaro.js.org/)
   - [Javascript State Machine](https://github.com/jakesgordon/javascript-state-machine)
+  - [Robot](https://thisrobot.life/)
 
 - Python
   - [Sismic](https://sismic.readthedocs.io)
