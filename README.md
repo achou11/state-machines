@@ -12,7 +12,7 @@ to describe more complex systems more efficiently
 
 A basic finite state machine features states, transitions and accept external inputs. Basic FSMs can be extended by adding outputs, memory, hierarchy, concurrency and communication. A machine with outputs will produce an output for each external input it receives. A machine with memory will hold track of a set of internal variables, which it can update on receiving external inputs. A machine with hierarchy contains sub-machines and can delegate the processing of external inputs to those sub-machines. A machine featuring concurrency and communication may contain a set of machines, which concurrently process external inputs and communicate together. Extensions add expressivity to the machine at the cost of higher complexity.
 
-According to the extensions they incorporate, the following terminology is commonly used:
+According to the extensions added to the basic state machine formalism, the following terminology is commonly used:
  
 | Extension | Terminology | Features |
 |:---|:---|:---|
