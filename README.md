@@ -48,6 +48,7 @@ Extensions to the basic state machine formalism can be chosen based on the chara
   - [The Rise Of The State Machines](https://www.smashingmagazine.com/2018/01/rise-state-machines/)
   - [State Machines: What Are They?](https://kyleshevlin.com/what-are-state-machines)
   - [How I Learned to Stop Worrying and ❤️ the State Machine](http://raganwald.com/2018/02/23/forde.html)
+  - [A Practical Guide to State Machines](https://deniskyashif.com/a-practical-guide-to-state-machines/)
 
 - User interface modeling
   - Horrocks, Ian. Constructing the User Interface with Statecharts. Boston, MA: Addison-Wesley, 1999
